@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    min-height: 100vh;
+    background:-webkit-linear-gradient(bottom,#ddd,#fff);
+}
+
+.container {
+
+    width: 1176px;
+    margin: auto;
+    display: flex;
+}
+
+/* start header */
+
+.header {
+
+    width: 100%;
+    background: #3B599A;
+    height: 90px;
+}
+
+.logo {
+    width: 50%;
+}
+
+h2 {
+
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 40px;
+    margin-top: 28px;
+
+}
+
+.log {
+    width: 50%;
+}
+
+.login {
+    display: flex;
+    padding-top: 20px;
+}
+
+
+.login-input {
+
+    margin-right: 10px;
+}
+
+input {
+    margin: 3px 0;
+}
+
+
+a {
+    text-decoration: none;
+    color: #9aafe6;
+}
+
+.login label {
+    color: #fff;
+}
+
+#check1 {
+    color: #9aafe6;
+}
+
+input[type=submit] {
+    background: #697db1;
+    ;
+    margin-top: 22px;
+    border: 0;
+    width: 40px;
+    height: 18px;
+    color: #eee;
+
+}
+
+/* end header */
+
+/* start content */
+.content {
+    width: 100%;
+    color: #3a4865;
+}
+
+.img {
+
+    width: 50%;
+    max-width: 100%;
+
+}
+
+img {
+    width: 100%
+}
+
+.content .img p {
+    color: #1f3169;
+    font-size: 20px;
+    font-weight: 900;
+    margin: 40px 0;
+}
+
+.signup {
+    width: 50%;
+}
+
+.signup h2 {
+    color: #000;
+    margin-bottom: 15px;
+}
+
+.signup p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.signup input {
+
+    height: 20px;
+    font-size: 20px;
+    padding: 5px 5px;
+    margin: 3px 4px;
+    border: #b5b8be solid 2px;
+    border-radius: 5px;
+    outline: 0;
+
+
+}
+
+.name {
+    display: flex;
+}
+
+.other {
+    display: block;
+    width: 86%
+}
+
+.signup label {
+    display: inline-block;
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+select{
+    border-radius: 5px;
+    width: 70px;
+    font-size: 15px;
+}
+
+.signup a{
+    color: #273e83;
+    
+}
+.signup input[type=submit]{
+    background: #619e4e;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+span{
+    display: block;
+    margin-bottom: 10px;
+    color: #6e7177;
+}
